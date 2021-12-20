@@ -43,7 +43,7 @@
             <?php 
                 $idCita = $cita->id;
                 } // Fin de IF 
-                $total += $cita->precio;
+                $total += ($cita->precio) * 1000;
             ?>
             <p class="servicio"><?php echo $cita->servicio . " " . $cita->precio; ?></p>
             

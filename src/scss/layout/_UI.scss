@@ -21,7 +21,7 @@
     .app {
         width: 100%;
         margin: 0 auto;
-        padding: 3rem;
+        padding: 2rem;
         @include m.tablet {
             overflow: scroll;
 
@@ -36,7 +36,7 @@
 
     @include m.tablet {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items:center;
     }
 
@@ -51,10 +51,10 @@
 
     @include m.tablet {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     .boton {
-        margin: 0 0 1rem 0;
+        margin:.5rem;
     }
 }
